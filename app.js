@@ -9,6 +9,7 @@ const home = require("./controllers/home.js");
 const posts = require("./controllers/posts.js");
 
 app.get("/", home.index);
+app.get("/posts", posts.index);
 /*
 app.get('/', (req, res) => {
     res.send('<h1>Benvenuto nel mio blog! da app.js</h1>');

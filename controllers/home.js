@@ -4,6 +4,7 @@
 // il mio titolo
 module.exports.index = function(req, res) {
     /*
+    PROVA CON IF ELS IF
     if(req.accepts("html")) {
         const acceptType = req.accepts();
         console.log(acceptType);
@@ -24,7 +25,7 @@ module.exports.index = function(req, res) {
 
 console.log(req.accepts());
  res.format({
-    // text/plain
+    // text/html
     html: () => {
         res.type("html").send("<h1>Ciao Mondo</h1>")},
     // application/hson
@@ -32,6 +33,7 @@ console.log(req.accepts());
         res.type("json").send({
             message : "ciao"
         })},
+    // text/plain
     text: () => {
         res.type("text").send("ciao io sono solo un testo")},
  }
