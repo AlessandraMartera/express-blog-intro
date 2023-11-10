@@ -16,6 +16,7 @@ module.exports.index = function(req, res) {
     html.push("</ul>")
     
     res.send(html); */
+    
     const html = [];
 
     html.push("<ul>");
