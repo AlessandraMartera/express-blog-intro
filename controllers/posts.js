@@ -23,8 +23,12 @@ module.exports.index = function(req, res) {
 
             for (const post of posts) {
                 html.push(`<li>
-                <h3>${post.titolo}</h3>
-                
+                <h1>${post.titolo}</h1>
+                <img src="${post.immagine}">
+                <p>${post.contenuto}</p>
+                <ul>
+                    <li>${post.tags.join(", ")}</li>
+                </ul>
                 </li>`);
             }
 

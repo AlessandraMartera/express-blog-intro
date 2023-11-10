@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
 const dotenv = require("dotenv").config();
+// configuro i file statici
+app.use(express.static("public"));
 
 const port = process.env.PORT || 3000;
 
