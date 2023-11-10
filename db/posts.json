@@ -1,43 +1,32 @@
 [
     {
-        "titolo": "Buongiorno mondo!", 
-        "contenuto": "Buongiorno mondo oggi è una bellissima giornata", 
-        "immagine": "Buongiorno.png",
-        "tags" : [
-            "#helloworld!",
-            "#Buongiornomondo"
-        ]
-    },{
-        "titolo": "Buongiorno mondo! 2", 
-        "contenuto": "Buongiorno mondo oggi è una bellissima giornata 2", 
-        "immagine": "Buongiorno.png",
-        "tags" : [
-            "#helloworld!",
-            "#Buongiornomondo"
-        ]
-    },{
-        "titolo": "Buongiorno mondo! 3", 
-        "contenuto": "Buongiorno mondo oggi è una bellissima giornata 3", 
-        "immagine": "Buongiorno.png",
-        "tags" : [
-            "#helloworld!",
-            "#Buongiornomondo"
-        ]
-    },{
-        "titolo": "Buongiorno mondo! 4", 
-        "contenuto": "Buongiorno mondo oggi è una bellissima giornata 4", 
-        "immagine": "Buongiorno.png",
-        "tags" : [
-            "#helloworld!",
-            "#Buongiornomondo"
-        ]
-    },{
-        "titolo": "Buongiorno mondo! 5", 
-        "contenuto": "Buongiorno mondo oggi è una bellissima giornata 5", 
-        "immagine": "Buongiorno.png",
-        "tags" : [
-            "#helloworld!",
-            "#Buongiornomondo"
-        ]
+      "titolo": "Viaggio nella natura",
+      "contenuto": "Esplorando foreste incontaminate e ammirando paesaggi mozzafiato.",
+      "immagine": "natura.jpg",
+      "tags": ["viaggio", "natura", "avventura"]
+    },
+    {
+      "titolo": "Ricetta della settimana: Pasta al pesto",
+      "contenuto": "Una deliziosa ricetta di pasta al pesto fatta in casa.",
+      "immagine": "pasta_pesto.jpg",
+      "tags": ["cucina", "ricette", "pasta"]
+    },
+    {
+      "titolo": "Guida allo yoga per principianti",
+      "contenuto": "Scopri i benefici dello yoga e inizia il tuo percorso di benessere.",
+      "immagine": "yoga.jpg",
+      "tags": ["yoga", "benessere", "salute"]
+    },
+    {
+      "titolo": "Le meraviglie dell'astronomia",
+      "contenuto": "Esplorando l'universo e le stelle che lo compongono.",
+      "immagine": "astronomia.jpg",
+      "tags": ["astronomia", "spazio", "stelle"]
+    },
+    {
+      "titolo": "Consigli per il successo professionale",
+      "contenuto": "Strategie e suggerimenti per raggiungere il successo nella carriera professionale.",
+      "immagine": "successo_professionale.jpg",
+      "tags": ["carriera", "successo", "lavoro"]
     }
-]
+  ]
