@@ -16,19 +16,24 @@ module.exports.index = function(req, res) {
     html.push("</ul>")
     
     res.send(html); */
-    
-    const html = [];
+    res.format({
+        html: () => {
+            const html = [];
+            html.push("<ul>");
 
-    html.push("<ul>");
+            for (const post of posts) {
+                html.push(`<li>
+                <h3>${post.titolo}</h3>
+                
+                </li>`);
+            }
 
-    for (const post of posts) {
-      html.push(`<li>
-        <h3>${post.titolo}</h3>
-        
-      </li>`);
-    }
-
-    html.push("</ul>");
-
-    res.send(html.join(""));
+            html.push("</ul>");
+            res.send(html.join(""));
+        },
+        json: () => {
+            res.send(posts);
+        }
+    })
+   
 }
